@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class GuessGame {
+public class GuessGame
+{
     public static void main(String[]args) {
         Scanner input = new Scanner(System.in);
         String guess = "0.5";
@@ -8,8 +9,7 @@ public class GuessGame {
         while (!guess.equals(input)) {
             System.out.println("Guess again");
         }
-        System.out.println("You got i! The number is" + guess + "!");
+        System.out.println("Correct. The number is" + guess + "!");
     }
 
-    public static void 
 }
